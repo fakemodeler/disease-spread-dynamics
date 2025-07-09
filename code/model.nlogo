@@ -36,7 +36,7 @@ to setup-population
     set health-status "susceptible"
     set infection-time 0
     set immunity-level random-float 1.0
-    set mobility 0.1 + random-float 0.4
+    set mobility 0.3 + random-float 0.7
     set social-contacts 2 + random 8
     set age-group one-of ["child" "adult" "elderly"]
     set color green  ; susceptible = green

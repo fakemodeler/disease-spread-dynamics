@@ -1,50 +1,51 @@
 {
-  "@id": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/1.0.0/",
-  "url": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/1.0.0/",
-  "name": "[TEST] Disease Spread Dynamics",
+  "@context": "https://w3id.org/codemeta/3.0",
   "@type": "SoftwareSourceCode",
-  "author": [
+  "@id": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/2.0.0/",
+  "name": "[TEST] Disease Spread Dynamics",
+  "codeRepository": "https://github.com/fakemodeler/disease-spread-dynamics",
+  "programmingLanguage": [
     {
-      "@id": "https://staging.comses.net/users/4282/",
-      "@type": "Person",
-      "email": "fakemodeler@gmail.com",
-      "givenName": "fake",
-      "familyName": "modeler"
+      "@type": "ComputerLanguage",
+      "name": "NetLogo"
     }
   ],
-  "license": {
-    "url": "http://www.gnu.org/licenses/gpl-3.0.html",
-    "name": "GPL-3.0",
-    "@type": "CreativeWork"
-  },
-  "version": "1.0.0",
-  "@context": "https://w3id.org/codemeta/3.0",
-  "keywords": [
-    "epidemiology"
-  ],
-  "publisher": {
-    "@id": "https://ror.org/015bsfc29",
-    "url": "https://www.comses.net",
-    "name": "CoMSES Net",
-    "@type": "Organization"
-  },
-  "identifier": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/1.0.0/",
-  "dateCreated": "2025-07-09",
-  "description": "This epidemiological agent-based model simulates the spread of an infectious disease through a population, incorporating factors like age, immunity, social behavior, and mobility patterns.",
-  "downloadUrl": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/1.0.0/download/",
-  "dateModified": "2025-07-09",
-  "releaseNotes": "Initial release (on comses.net)",
-  "copyrightYear": 2025,
-  "datePublished": "2025-07-09",
-  "operatingSystem": "platform_independent",
   "runtimePlatform": [
     "NetLogo"
   ],
   "applicationCategory": "Computational Model",
-  "programmingLanguage": [
+  "downloadUrl": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/2.0.0/download/",
+  "operatingSystem": "platform_independent",
+  "releaseNotes": "Initial release (on comses.net)",
+  "author": [
     {
-      "name": "NetLogo",
-      "@type": "ComputerLanguage"
+      "@id": "https://staging.comses.net/users/4282/",
+      "@type": "Person",
+      "givenName": "fake",
+      "familyName": "modeler",
+      "email": "fakemodeler@gmail.com"
     }
-  ]
+  ],
+  "copyrightYear": 2025,
+  "dateCreated": "2025-07-09",
+  "dateModified": "2025-07-09",
+  "datePublished": "2025-07-09",
+  "keywords": [
+    "epidemiology"
+  ],
+  "license": {
+    "@type": "CreativeWork",
+    "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+    "name": "GPL-3.0"
+  },
+  "publisher": {
+    "@id": "https://ror.org/015bsfc29",
+    "@type": "Organization",
+    "url": "https://www.comses.net",
+    "name": "CoMSES Net"
+  },
+  "version": "2.0.0",
+  "identifier": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/2.0.0/",
+  "description": "This epidemiological agent-based model simulates the spread of an infectious disease through a population, incorporating factors like age, immunity, social behavior, and mobility patterns.",
+  "url": "https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/2.0.0/"
 }

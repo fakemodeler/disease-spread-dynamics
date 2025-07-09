@@ -9,12 +9,13 @@ cff-version: 1.2.0
 date-released: '2025-07-09'
 identifiers:
 - type: url
-  value: https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/1.0.0/
+  value: https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/2.0.0/
 keywords:
 - epidemiology
 license: GPL-3.0
 message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/fakemodeler/disease-spread-dynamics
 title: '[TEST] Disease Spread Dynamics'
 type: software
-url: https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/1.0.0/
-version: 1.0.0
+url: https://staging.comses.net/codebases/5c50041a-ed23-4b3f-8215-ad0ad5265698/releases/2.0.0/
+version: 2.0.0
