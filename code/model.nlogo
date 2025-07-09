@@ -47,7 +47,7 @@ to setup-initial-infection
   ask n-of initial-infected people [
     set health-status "infected"
     set infection-time 0
-    set color red  ; infected = red
+    set color yellow  ; infected = yellow
   ]
   update-counters
 end
